@@ -1,0 +1,16 @@
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\DzApp.exe
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\DzApp.deps.json
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\DzApp.runtimeconfig.json
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\DzApp.runtimeconfig.dev.json
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\DzApp.dll
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\ref\DzApp.dll
+C:\Users\HP\DzSln\DzApp\bin\Debug\net5.0\DzApp.pdb
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.csprojAssemblyReference.cache
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.AssemblyInfoInputs.cache
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.AssemblyInfo.cs
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.dll
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\ref\DzApp.dll
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.pdb
+C:\Users\HP\DzSln\DzApp\obj\Debug\net5.0\DzApp.genruntimeconfig.cache
