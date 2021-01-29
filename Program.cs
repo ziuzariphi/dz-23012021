@@ -70,19 +70,25 @@ namespace DzApp
             }
             System.Console.Write("\n");
 
-            int p = Convert.ToInt32(Console.ReadLine());
-            int s1 = 1000, k = 0;
+            double p = Convert.ToInt32(Console.ReadLine());
+            double s1 = 1000; 
+            int k = 0;
+            if(!(0 < p && p < 25))
+            {
+                System.Console.WriteLine("Error");
+                return;
+            }
             while(s1 <= 1100){
-                s1 += p;
+                s1 *= (100 + p)/100;
                 k ++;
             }
             Console.WriteLine(k + " " + s1);
 
-            //DZ-2
+            // DZ-2
 
             int n = Convert.ToInt32(Console.ReadLine());
             int[] arr = new int[n];
-            int s2 = 0, maxi = -13876, mini = 13876;
+            double s2 = 0, maxi = -13876, mini = 13876;
             for (int i = 0; i < n; i ++){
                 arr[i] = Convert.ToInt32(Console.ReadLine());
                 if(arr[i] > maxi){
@@ -105,18 +111,21 @@ namespace DzApp
             for (int i = 0; i < n1; i ++){
                 array[i] = Convert.ToInt32(Console.ReadLine());            
             }
-            for (int i = n1 - 1; i >= 0; i --){
-                System.Console.WriteLine(array[i]);;
+            Array.Reverse(array);
+            for (int i = 0; i < array.Length; i++)
+            {
+                System.Console.WriteLine( array[i]);
             }
 
             int N = Convert.ToInt32(Console.ReadLine());
             int[] a = new int[N];
             int count = Convert.ToInt32(Console.ReadLine());
             int index = Convert.ToInt32(Console.ReadLine());
-            int[] b = new int[count];
+            int[] b = new int[count + 2];
             for(int i = 0; i < N; i ++){
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
+            System.Console.WriteLine("\n");
             for(int i = 0; i < N; i ++){
                 Console.WriteLine(a[i]);
             }
@@ -127,7 +136,7 @@ namespace DzApp
                 j ++;
             }
             for(int z = 0; z < j; z ++){
-                System.Console.WriteLine(b[z]);
+               System.Console.WriteLine(b[z]);
             }
             if((N - index) < count){
                 for (int i = 0; i < (count - j); i ++){
